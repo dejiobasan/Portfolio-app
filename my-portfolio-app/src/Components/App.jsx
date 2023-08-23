@@ -13,10 +13,10 @@ function App() {
       <Sidebar />
       <Navbar />
       <Routes>
-        <Route exact path="/" Component={<Home />} />
-        <Route path="/About" Component={<About />} />
-        <Route path="/Portfolio" Component={<Portfolio />} />
-        <Route path="/Contact" Component={<Contact />} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   );

@@ -7,7 +7,7 @@ function Home() {
       <div className="container">
         <div className="image">
           <img
-            src="./publi/Images/Deji-image.jpeg"
+            src="../Images/Deji-image.jpeg"
             className="deji-picture"
             alt="Dejiimage"
             width="500px"
@@ -20,7 +20,7 @@ function Home() {
             Software Developer || Full-stack Developer || Electrical/Electronics
             Engineer
           </p>
-          <Link className="btn1" to="/Contact.html" role="button">
+          <Link className="btn1" to="/Contact" role="button">
             Contact Me
           </Link>
         </div>

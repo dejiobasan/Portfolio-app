@@ -21,27 +21,27 @@ function About() {
         </div>
         <div className="tech-stack">
           <p className="backend-stack">Backend Stack & Database:</p>
-          <img src="./public/Logos/node.png" alt="nodejs" width="80px" height="80px" />
+          <img src="../Logos/node.png" alt="nodejs" width="80px" height="80px" />
           <img
-            src="./public/Logos/python.jpeg"
+            src="../Logos/python.jpeg"
             alt="python"
             width="80px"
             height="80px"
           />
           <img
-            src="./public/Logos/js.png"
+            src="../Logos/js.png"
             alt="javascript"
             width="80px"
             height="80px"
           />
           <img
-            src="./public/Logos/mongodb.png"
+            src="../Logos/mongodb.png"
             alt="mongodb"
             width="80px"
             height="80px"
           />
           <img
-            src="./public/Logos/firebase.png"
+            src="../Logos/firebase.png"
             alt="firebase"
             width="80px"
             height="80px"
@@ -49,20 +49,20 @@ function About() {
 
           <p className="frontend-stack">Frontend Stack:</p>
           <img
-            src="./public/Logos/html, css.png"
+            src="../Logos/html, css.png"
             alt="html/css"
             width="80px"
             height="80px"
           />
           <img
-            src="./public/Logos/bootstrap.jpeg"
+            src="../Logos/bootstrap.jpeg"
             alt="bootstrap"
             width="80px"
             height="80px"
           />
-          <img src="./public/Logos/React.png" alt="React" width="80px" height="80px" />
+          <img src="../Logos/React.png" alt="React" width="80px" height="80px" />
           <img
-            src="./public/Logos/js.png"
+            src="../Logos/js.png"
             alt="javascript"
             width="80px"
             height="80px"
