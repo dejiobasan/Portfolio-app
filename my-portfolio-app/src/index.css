@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #dfccfb;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 6px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidebarContent {
+  margin-top: 90px;
+}
+
+.sidebarbottom {
+  margin-top: 140px;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.deji-picture {
+  margin-top: 50px;
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  font-weight: bold;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+.header2 {
+  font-weight: bold;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  color: #352f44;
+}
+
+.header3 {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #352f44;
+}
+
+.content {
+  color: #800020;
+  margin-bottom: 40px;
+}
+
+.btn1 {
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 19px;
+  background: #352f44;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #5c5470;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+}
+
+.image {
+  width: 50%;
+  padding: 10px;
+}
+
+.tech-stack {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.intro {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.about-content {
+  width: 50%;
+}
+
+.portfolio-content {
+  width: 50%;
+}
+
+.portfolio-content p {
+  margin-bottom: 40px;
+}
+
+.backend-stack {
+  margin-top: 100px;
+}
+
+.frontend-stack {
+  margin-top: 50px;
+}
+
+.navbar {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+
+  .intro {
+    width: 100%;
+    padding: 10px;
+    text-align: inherit;
+  }
+
+  .image {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    background-color: #dfccfb;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  .tech-stack {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 760px) {
+  .intro {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    margin-left: -50px;
+    margin-top: -140px;
+  }
+
+  .image {
+    width: 100%;
+    padding: 10px;
+    align-content: center;
+    margin-left: -80px;
+  }
+}
