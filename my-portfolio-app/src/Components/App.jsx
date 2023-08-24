@@ -6,10 +6,12 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ParticlesStyle from "./Particles";
 
 function App() {
   return (
     <Router>
+      <ParticlesStyle />
       <Sidebar />
       <Navbar />
       <Routes>
