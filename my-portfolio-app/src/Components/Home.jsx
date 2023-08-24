@@ -23,7 +23,7 @@ function Home() {
             <h1 className="header">Hi, I'm Deji a full-stack web developer.</h1>
             <p className="content">
               Software Developer || Full-stack Developer ||
-              Electrical/Electronics Engineer
+              Electrical/Electronics Engineer || Part-time Anime Watcher
             </p>
           </Jump>
           <Link className="btn1" to="/Contact" role="button">
